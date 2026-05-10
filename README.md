@@ -36,3 +36,27 @@ You can start as many clients as you want to simulate multiple users in the chat
 - Java 17
 - Java Sockets (Networking)
 - Java Swing/AWT (GUI) 
+
+Running the project is very straightforward because it includes helpful `.bat` files that use a bundled Java Development Kit (JDK 17). This means you don't even need to have Java installed on your computer manually!
+
+Here is how you can run it:
+
+### Step 1: Start the Chat Server
+The server routes all messages and must be running before any chat clients can connect.
+- Open your File Explorer and navigate to `d:\All_projects\sem1\chat_application`.
+- Double-click on **`run_server.bat`**. 
+- A command prompt window will open displaying some configuration text, followed by the server starting. Leave this window open!
+
+### Step 2: Start a Chat Client
+Once the server is running, you can connect to it. You have two options for the client, and you can open as many of them as you want to simulate multiple users:
+
+**Option A - The Graphical Client (GUI) - Recommended**
+- Double-click on **`run_gui.bat`**.
+- This will open a nice windowed interface where you can enter your username and chat intuitively.
+
+**Option B - The Console Client**
+- Double-click on **`run_client.bat`**.
+- This will open up a command prompt window where you can type commands and chat directly from the terminal.
+
+### Summary
+To see the chat in action, simply double click **`run_server.bat`**, wait a second, and then double click **`run_gui.bat`** a couple of times to spawn multiple chat users. Try sending messages between them!
